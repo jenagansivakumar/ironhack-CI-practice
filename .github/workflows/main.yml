@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Compile TS
-        run: tsx index.ts
+        run: tsc index.ts
 
       - name: Run code
         run: node index.js
