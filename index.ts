@@ -7,3 +7,4 @@ const addTwoNumbers = (a: number, b :number):number =>{
 
 
 console.log(addTwoNumbers(1,2))
+console.log(addTwoNumbers(1,5))
