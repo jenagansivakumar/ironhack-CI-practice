@@ -1,4 +1,4 @@
-name: CI WORKFLOW
+name: CI Workflow
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Compile TS
-        run: tsc index.ts
+        run: tsc
 
       - name: Run code
         run: node index.js
